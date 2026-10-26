@@ -12,7 +12,7 @@ Folders = {
 app = typer.Typer()
 
 @app.command()
-def tidy(path: str):
+def Scan(path: str):
     file = Path(path)
 
     for item in file.iterdir():
